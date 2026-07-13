@@ -7,7 +7,7 @@ API integration, data persistence, ML forecasting, and professional UI design.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Category | What's included |
 |---|---|
@@ -45,7 +45,7 @@ weather_dashboard/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1 — Get a free API key
 
@@ -84,7 +84,7 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 | Variable | Description |
 |---|---|
@@ -92,7 +92,7 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 | Package | Purpose |
 |---|---|
@@ -107,7 +107,7 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 🎓 Internship Evaluation Checklist
+##  Internship Evaluation Checklist
 
 - [x] Clean UI with dark-glass aesthetic
 - [x] Modular architecture (api / services / visualizations / database / utils)
@@ -122,7 +122,7 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## 🛠️ Next Steps (Phase 8 – 10)
+##  Next Steps (Phase 8 – 10)
 
 - [ ] APScheduler: background job that ingests data every 30 min automatically
 - [ ] Docker deployment (`Dockerfile` + `docker-compose.yml`)
