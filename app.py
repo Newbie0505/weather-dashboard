@@ -24,7 +24,7 @@ load_dotenv()
 
 # ── Page config (must be first Streamlit call) ────────────────────────────────
 st.set_page_config(
-    page_title="Environmental Intelligence Dashboard",
+    page_title=os.getenv("DASHBOARD_TITLE", "Environmental Intelligence Dashboard"),
     page_icon="🌍",
     layout="wide",
     initial_sidebar_state="expanded",
