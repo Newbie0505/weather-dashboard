@@ -105,10 +105,10 @@ except WeatherAPIError as exc:
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🌍 EnvIntel Dashboard")
+    st.markdown(
+        f"## 🌍 {os.getenv('DASHBOARD_TITLE', 'Environmental Intelligence Dashboard')}"
+    )
     st.caption("Real-time Environmental Analytics")
-    st.markdown("---")
-
     st.markdown("### 📍 Primary City")
     primary_city = st.text_input("City", value="Amsterdam", placeholder="e.g. Tokyo")
 
